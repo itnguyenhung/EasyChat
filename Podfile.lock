@@ -1,0 +1,77 @@
+PODS:
+  - Bolts (1.5.1):
+    - Bolts/AppLinks (= 1.5.1)
+    - Bolts/Tasks (= 1.5.1)
+  - Bolts/AppLinks (1.5.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.5.1)
+  - NMPaginator (1.0.0)
+  - QMChatViewController (0.3.7):
+    - QMChatViewController/Categories (= 0.3.7)
+    - QMChatViewController/KeyboardViewController (= 0.3.7)
+    - QMChatViewController/Protocols (= 0.3.7)
+    - QMChatViewController/Sections (= 0.3.7)
+    - QMChatViewController/Utils (= 0.3.7)
+    - QMChatViewController/Views (= 0.3.7)
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Categories (0.3.7):
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/KeyboardViewController (0.3.7):
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Protocols (0.3.7):
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Sections (0.3.7):
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Utils (0.3.7):
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMChatViewController/Views (0.3.7):
+    - QMChatViewController/Categories
+    - QMChatViewController/Protocols
+    - QuickBlox (>= 2.0)
+    - SDWebImage (~> 3.6)
+    - TTTAttributedLabel (~> 1.13)
+  - QMServices (0.4):
+    - Bolts (>= 1.5.0)
+    - QuickBlox (>= 2.6.5)
+  - QuickBlox (2.7.2)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SearchEmojiOnString (1.1.0)
+  - SVProgressHUD (1.1.3)
+  - TTTAttributedLabel (1.13.4)
+
+DEPENDENCIES:
+  - Bolts (~> 1.5.0)
+  - NMPaginator
+  - QMChatViewController
+  - QMServices
+  - SearchEmojiOnString
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Bolts: a12663244b1d3351c738882e71902fc74db54f64
+  NMPaginator: cfdce30d71807c8d24f5c885505348c51c05f8d2
+  QMChatViewController: 12b47730905d9ae27ee21368a288a73b4315a2ae
+  QMServices: d394e72f3202206088fd18d2b6a507c597143e22
+  QuickBlox: 99d8b2db8df393e6b38e601a9d3ed2d0dd4b4db3
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SearchEmojiOnString: 7344970449603396555d058a0dc297b5471bafa7
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TTTAttributedLabel: 0a2ac7b2dd726d32a070dafb01446026b11e624f
+
+PODFILE CHECKSUM: f052ff6e8b36c78bebb9392df8204c831dc02100
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,39 @@
+//
+//  EasyChat.pch
+//  EasyChat
+//
+//  Created by Nguyen Van Hung on 5/24/16.
+//  Copyright © 2016 HungNV. All rights reserved.
+//
+
+#ifndef EasyChat_pch
+#define EasyChat_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <Quickblox/Quickblox.h>
+    #import <Quickblox/QBMulticastDelegate.h>
+    #import <QMServices.h>
+    #import <SVProgressHUD.h>
+    #import <AddressBook/AddressBook.h>
+    #import "ServicesManager.h"
+    #import "Constants.h"
+    #import "iDefine.h"
+    #import "Utilities.h"
+#endif
+
+#ifdef DEBUG
+    #define DEVLOG(fmt, ...)  NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+    #define DEVLOG_METHOD NSLog(@"%s", __func__);
+#else
+    #define DEVLOG(...)
+    #define DEVLOG_METHOD
+#endif
+
+#endif /* EasyChat_pch */
